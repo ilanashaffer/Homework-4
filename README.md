@@ -2,7 +2,7 @@ Homework 4: Code Quiz
 
 Description:  
 
-This is a "Code Quiz" application that asks multiplication questions and is timed. Final score revealed upon completion.  
+This is a "Code Quiz" application that asks multiple choice questions upon starting and is timed. Final score is revealed upon completion.  
 
 
 Project files:  

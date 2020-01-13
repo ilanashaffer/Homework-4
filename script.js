@@ -11,11 +11,8 @@ const choiceBButton = document.getElementById('choiceB');
 const choiceCButton = document.getElementById('choiceC');
 const choiceDButton = document.getElementById('choiceD');
 
-
-
 startButton.addEventListener('click', startQuiz);
 submitButton.addEventListener('click', endQuiz);
-
 
 function startQuiz() {
     startButton.classList.add('hide');
@@ -24,7 +21,7 @@ function startQuiz() {
     questionsContainer.classList.remove('hide');
     timer();
     nextQuestion();
-}
+};
 
 function nextQuestion() {
     questionElement.innerText = questions[i].question;
@@ -72,13 +69,12 @@ function nextQuestion() {
             addI();
         }
     });
-
-}
+};
 
 function addI() {
     i++;
     nextQuestion();
-}
+};
 
 function timer() {
     let time = 59;
@@ -101,7 +97,7 @@ function endQuiz() {
     submitButton.classList.add('hide');
     timerElement.classList.add('hide');
     questionElement.innerText = 'You completed the quiz! You\'re score is: ' + score + '/5 !';
-    };
+};
 
 let questions = [
     {
@@ -149,4 +145,4 @@ let questions = [
         { choiceD: 'an iteration statement', correct: true }
         ]
     }
-    ];
+];
