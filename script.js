@@ -88,7 +88,6 @@ function timer() {
 }, 1000);
 };
 
-
 function endQuiz() {
     choiceAButton.classList.add('hide');
     choiceBButton.classList.add('hide');
