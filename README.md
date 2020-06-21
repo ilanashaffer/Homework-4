@@ -1,4 +1,4 @@
-Homework 4: Code Quiz  
+Code Quiz  
 
 Description:  
 
@@ -12,14 +12,8 @@ Project files:
     script.js  
 
 Github Pages URL:  
-https://ilanashaffer.github.io/Homework-4/
+https://ilanashaffer.github.io/Code-Quiz
 
-Prerequisites:  
-Browser that supports HTML5
-
-Deployment:  
-Download Repository  
-Open index.html in browser
 
 Built with:  
 Visual Studio Code  
@@ -29,6 +23,3 @@ Javascript
 
 Authors:  
 Ilana Shaffer
-
-Acknowledgments:  
-University of Denver - Bootcamp Spot Assignment
